@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.bestbuy.productinfo.ProductCURDTest" skipped="0" tests="1" time="4.47" timestamp="2021-07-20T18:59:54.477+01:00[Europe/London]"><testcase classname="com.bestbuy.productinfo.ProductCURDTest" name="Verify if the product was added to the application"><error message="Cannot invoke method hasCustomParserExcludingDefaultParser() on null object" type="java.lang.NullPointerException">Cannot invoke method hasCustomParserExcludingDefaultParser() on null object</error><system-err>Cannot invoke method hasCustomParserExcludingDefaultParser() on null object&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.findContentType(RestAssuredResponseOptionsGroovyImpl.groovy:484)&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:391)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)&#13;
+com.bestbuy.stepinfo.ProductSteps.getProductInfoByName(ProductSteps.java:77)&#13;
+com.bestbuy.productinfo.ProductCURDTest.test002(ProductCURDTest.java:59)&#13;
+</system-err></testcase></testsuite>

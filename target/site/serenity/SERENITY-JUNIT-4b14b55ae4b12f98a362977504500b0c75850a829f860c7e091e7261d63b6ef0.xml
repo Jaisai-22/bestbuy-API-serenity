@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.bestbuy.categoriesinfo.CategoriesCURDTest" skipped="0" tests="1" time="5.53" timestamp="2021-07-20T22:59:45.720+01:00[Europe/London]"><testcase classname="com.bestbuy.categoriesinfo.CategoriesCURDTest" name="This test will update the categories information and verify the updated information"><error message="parameterValue cannot be null" type="java.lang.IllegalArgumentException">parameterValue cannot be null</error><system-err>parameterValue cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParameter(RequestSpecificationImpl.groovy:560)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:578)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationParametersConfigurations.pathParam(RequestSpecificationParametersConfigurations.java:188)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.pathParam(RequestSpecificationDecorated.java:27)&#13;
+com.bestbuy.stepinfo.CategoriesSteps.updateCategories(CategoriesSteps.java:49)&#13;
+com.bestbuy.categoriesinfo.CategoriesCURDTest.test003(CategoriesCURDTest.java:49)&#13;
+</system-err></testcase></testsuite>
